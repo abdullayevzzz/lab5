@@ -2,6 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from dnn_lib import *
 
+#test
 learning_rate = 0.075
 num_iterations = 10
 #TODO: generate more data
