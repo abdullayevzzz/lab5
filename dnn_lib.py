@@ -3,6 +3,7 @@ import numpy as np
 
 def data_normalize(raw_data):
     max_val = max([max(row) for row in raw_data])
+    # max_val = np.max(raw_data, axis=1, keepdims=True)
     return raw_data/max_val
 
 def sigmoid(Z):
